@@ -117,8 +117,8 @@
       <file leaf-file-name="MrBlank.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/MrBlank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7039801" vertical-offset="261" max-vertical-offset="714">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.45024875" vertical-offset="261" max-vertical-offset="714">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -1742,7 +1742,11 @@
       <created>1426609991848</created>
       <updated>1426609991848</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;[MrBlank] MRBlank wurde eingefürht&quot;">
+      <created>1426610282870</created>
+      <updated>1426610282870</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -2236,8 +2240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/MrBlank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7039801" vertical-offset="261" max-vertical-offset="714">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.45024875" vertical-offset="261" max-vertical-offset="714">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
           <folding />
         </state>
       </provider>
