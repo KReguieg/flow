@@ -21,21 +21,11 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="916cd52c-42f6-4e8b-bcd5-f0b3f80ddb75" name="Default" comment="&quot;[SplashScreen] Inserted the SplashScreen&quot;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Christopher.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/SplashScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu__splash_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/FlowFeedActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/FlowFeedActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/MrBlank.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/MrBlank.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_flow_feed.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_flow_feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_21_0_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_21_0_3.xml" />
+    <list default="true" id="916cd52c-42f6-4e8b-bcd5-f0b3f80ddb75" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Christopher.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Christopher.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/SplashScreen.java" afterPath="$PROJECT_DIR$/app/src/main/java/de/flowment/flowmentapp/SplashScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu__splash_screen.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu__splash_screen.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FlowmentApp.iws" />
@@ -1734,7 +1724,11 @@
       <created>1426610282870</created>
       <updated>1426610282870</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[SplashScreen] Inserted the SplashScreen">
+      <created>1426851713970</created>
+      <updated>1426851713970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1813,7 +1807,8 @@
     <MESSAGE value="[NAVIDRAWER] Adding a Fragment, which can be slided in from the left side to navigate" />
     <MESSAGE value="&quot;[NAVIDRAWER] Adding a Fragment, which can be slided in from the left side to navigate&quot;" />
     <MESSAGE value="&quot;[MrBlank] MRBlank wurde eingefürht&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;[MrBlank] MRBlank wurde eingefürht&quot;" />
+    <MESSAGE value="[SplashScreen] Inserted the SplashScreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="[SplashScreen] Inserted the SplashScreen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
