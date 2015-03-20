@@ -50,6 +50,9 @@ public class FlowFeedActivity extends ActionBarActivity {
             startActivity(new Intent(this, AddEventActivity.class));
         }
 
+        if( id ==  R.id.SplashScreen)
+            startActivity(new Intent(this, SplashScreen.class));
+
         return super.onOptionsItemSelected(item);
     }
 }
