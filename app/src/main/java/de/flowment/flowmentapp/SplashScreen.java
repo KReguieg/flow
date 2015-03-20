@@ -6,9 +6,11 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 
-
+import com.larvalabs.svgandroid.SVG;
+import com.larvalabs.svgandroid.SVGParser;
 
 
 public class SplashScreen extends ActionBarActivity {
@@ -18,15 +20,26 @@ public class SplashScreen extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         ImageView bild = (ImageView)findViewById(R.id.centerImage);
-        bild.animate().rotation(360).setDuration(3000);
+        // Fix issue with renderer on certain devices
+        bild.setLayerType(View.LAYER_TYPE_SOFTWARE, null); // Nötig weil das Bild sonst weiß bleibt
 
-        final Handler handler = new Handler();
+
+
+        SVG svg = SVGParser.getSVGFromResource(getResources(), R.drawable.kreis); // Parse the SVG file from the resource
+        bild.setImageDrawable(svg.createPictureDrawable());  // Get a drawable from the parsed SVG and set it as the drawable for the ImageView
+
+        bild.animate().rotation(550).setDuration(3500);
+
+
+        final Handler handler = new Handler(); // Ein neuer Handler der ein Event auslöst 3s später
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
                 LoadFlowFeed();
             }
         }, 3000);
+
+
     }
 
 

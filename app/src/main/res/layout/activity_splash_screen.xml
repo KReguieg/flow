@@ -7,12 +7,25 @@
     tools:context="de.flowment.flowmentapp.SplashScreen"
     android:background="#ffffffff">
 
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/centerImage"
+        android:layout_alignRight="@+id/centerImage"
+        android:layout_alignEnd="@+id/centerImage"
+        android:id="@+id/frameLayout"
+        android:padding="50dp">
+
+    </FrameLayout>
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
         android:id="@+id/centerImage"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/ic_launcher" />
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:focusableInTouchMode="false"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter" />
 
 </RelativeLayout>
